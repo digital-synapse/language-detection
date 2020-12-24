@@ -1,4 +1,3 @@
-const { train } = require('@tensorflow/tfjs-node');
 const fs = require('fs');
 let instance = {
   load,
@@ -17,11 +16,10 @@ async function load(tryLoadSavedModels = true){
   training_data = JSON.parse(fs.readFileSync('./languagedetect/training-data.json','utf-8'));
   instance.training_data = training_data;
 
-
   if (tryLoadSavedModels){
-    training_data.forEach(data => {
-      data.model = await tf.loadLayersModel(`file://./languagedetect/model/${data.language}/${data.language}.json`);
-    });
+    for (let i=0; i<training_data.length; i++){    
+      training_data[i].model = await tf.loadLayersModel(`file://./languagedetect/model/${training_data[i].language}/model.json`);
+    };
   }
   return instance;
 }
@@ -93,7 +91,7 @@ function detect(inputString){
   const results = training_data.map(data => {
     const result = data.model.predict(tf.tensor(vectorize(inputString)).reshape([1,30]));
     const result_prediction = result.arraySync()[0];
-    return { language: data.language, confidence: result_prediction };
+    return { predicted: data.language, confidence: result_prediction };
   });
 
   results.sort((a,b) => b.confidence - a.confidence);
@@ -106,15 +104,12 @@ function detect(inputString){
 function detectTest(inputString, expectedLanguage)
 {
   const result = detect(inputString);
-  const nc = "\x1b[0m"  
-  const r = "\x1b[31m"
-  const g = "\x1b[32m"
-  
-  if (result.language == expectedLanguage){
-    result.test = g + 'PASS' + nc;
+  result.expected = expectedLanguage;
+  if (result.predicted == expectedLanguage){
+    result.pass =true;
   }
   else {
-    result.test = r + 'FAIL' + nc;
+    result.pass =false;
   }
 
   return result;

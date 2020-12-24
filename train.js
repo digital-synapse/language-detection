@@ -4,20 +4,23 @@ const language = require('./language')(tf);
 
 language.run(async ()=>{
 
-    await language.load(false);
+    await language.load(true);
 
     const training_data = language.training_data;
     const languages = training_data.length;
     
+    
     training_data.forEach(t => {
-      const model = tf.sequential({ layers: [
-        tf.layers.dense({ inputShape: [30], units: languages, activation: 'sigmoid' }),
-        tf.layers.dense({ inputShape: [languages], units: languages, activation: 'sigmoid' }),
-        tf.layers.dense({ inputShape: [languages], units: languages, activation: 'sigmoid' }),
-        tf.layers.dense({ inputShape: [languages], units: 1, activation: 'sigmoid' })    
-      ]});      
-      model.compile({ optimizer: 'adam', loss: 'meanSquaredError', lr: 0.01 });
-      t.model = model;  
+      if (!t.model){
+        const model = tf.sequential({ layers: [
+          tf.layers.dense({ inputShape: [30], units: languages, activation: 'sigmoid' }),
+          tf.layers.dense({ inputShape: [languages], units: languages, activation: 'sigmoid' }),
+          tf.layers.dense({ inputShape: [languages], units: languages, activation: 'sigmoid' }),
+          tf.layers.dense({ inputShape: [languages], units: 1, activation: 'sigmoid' })    
+        ]});      
+        t.model = model;
+      }  
+      t.model.compile({ optimizer: 'adam', loss: 'meanSquaredError', lr: 0.1 });
     });
 
     let shortest = training_data[0].text.length;
@@ -100,4 +103,4 @@ language.run(async ()=>{
     training_data.forEach(async (t,i) => {
       await t.model.save(`file://./languagedetect/model/${t.language}`);
     });
-})();
+});
