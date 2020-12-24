@@ -18,7 +18,20 @@ function loadJSON(filePath){
 }
 async function load(tryLoadSavedModels = true){
   training_data = loadJSON('./languagedetect/data/training-data-1.json');
+  const td2 = loadJSON('./languagedetect/data/training-data-2.json');
+  const td3 = loadJSON('./languagedetect/data/training-data-3.json');
+  training_data.forEach(d=> {
+    const a= td2.find(x=>x.language == d.language);
+    if (a && a.text){
+      d.text = d.text + ' ' + a.text;
+    }
+    const b= td3.find(x=>x.language == d.language);
+    if (b && b.text){
+      d.text = d.text + ' ' + b.text;
+    }
+  });
   instance.training_data = training_data;
+  instance.validation_data = loadJSON('./languagedetect/data/validation-data.json');
 
   if (tryLoadSavedModels){
     for (let i=0; i<training_data.length; i++){    

@@ -1,16 +1,21 @@
 console.clear();
 const tf = require('@tensorflow/tfjs-node-gpu');
 const language = require('./language')(tf);
+let training_epochs = 5000;
 
 language.run(async ()=>{
 
     await language.load(true);
 
-    const training_data = language.training_data;
-    const languages = training_data.length;
+    let training_data = language.training_data;
+    const languages = training_data.length;    
     
     
     training_data.forEach(t => {
+      // default 
+      t.needsTraining=true;
+      
+      // no model (language.load() did not find a saved model to load, so create a new one)
       if (!t.model){
         const model = tf.sequential({ layers: [
           tf.layers.dense({ inputShape: [30], units: languages, activation: 'sigmoid' }),
@@ -19,9 +24,24 @@ language.run(async ()=>{
           tf.layers.dense({ inputShape: [languages], units: 1, activation: 'sigmoid' })    
         ]});      
         t.model = model;
-      }  
-      t.model.compile({ optimizer: 'adam', loss: 'binaryCrossentropy', lr: 0.001 });
+      } 
+      // model was loaded, test to see if more training is needed
+      else{
+        training_epochs = 500;
+        const vd = language.validation_data.find(x=>x.language == t.language);
+        const result = language.detectTest(vd.text, vd.language);
+        
+        // model is predicting correctly
+        if (result.pass){
+          t.needsTraining = false;
+        }
+      }
+
+      t.model.compile({ optimizer: 'sgd', loss: 'binaryCrossentropy', lr: 0.001 });
     });
+
+    // only train the models that need it
+    training_data = training_data.filter(x=>x.needsTraining);
 
     let shortest = training_data[0].text.length;
     for (let i=0; i < training_data.length; i++){
@@ -59,7 +79,6 @@ language.run(async ()=>{
     }
     //const xy = [].concat.apply([], training_data.map(x=>x.xx.language == x.language ? 1 : 0)); 
     const training_tasks=[];
-    const training_epochs = 5000;
     training_data.forEach((t,i) => {
       training_tasks.push( t.model.fit(tf.tensor(xx), tf.tensor(xy[i]), {
         epochs: training_epochs,
