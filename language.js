@@ -64,7 +64,7 @@ function repeat(v,times){
   return a;
 }
 function vectorize(str){
-  if (str.length < 30) str.padEnd(30,' ');
+  if (str.length < 30) str = str.padEnd(30,' ');
   let charCodes=[];
   for (let i = 0; i < 30; i++){
     charCodes.push(str.charCodeAt(i) / 65535);

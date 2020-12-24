@@ -18,6 +18,9 @@ language.run(async ()=>{
   r.push(language.detectTest('hei mitä tämä teksti yrittää sanoa?', 'Finnish')); // finnish
   r.push(language.detectTest('hei apa teks iki nyoba ngomong?', 'Javanese')); // javanese
   r.push(language.detectTest('hei, apa yang cuba disampaikan oleh teks ini?', 'Malay')); // malay  
+  r.push(language.detectTest('이 텍스트가 무엇을 말하려고하나요?', 'Korean'));
+  r.push(language.detectTest('嘿，这段文字想说什么？', 'Chinese Simplified'));
+  r.push(language.detectTest('ねえ、このテキストは何を言おうとしているのですか？','Japanese'));
   console.table(r);
 
 });
