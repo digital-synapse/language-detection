@@ -18,7 +18,6 @@ language.run(async ()=>{
   r.push(language.detectTest('hei mitä tämä teksti yrittää sanoa?', 'Finnish')); // finnish
   r.push(language.detectTest('hei apa teks iki nyoba ngomong?', 'Javanese')); // javanese
   r.push(language.detectTest('hei, apa yang cuba disampaikan oleh teks ini?', 'Malay')); // malay  
-  language.detectTest('', x=>x.
   console.table(r);
 
 });

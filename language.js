@@ -103,21 +103,12 @@ function detect(inputString){
   return max;
 }
 
-function detectTest(
-  /* string */        inputString, 
-  /* function */  expectedLanguage
-  ){
+function detectTest(inputString, expectedLanguage)
+{
   const result = detect(inputString);
   const nc = "\x1b[0m"  
   const r = "\x1b[31m"
   const g = "\x1b[32m"
-  
-  if (expectedLanguage && typeof expectedLanguage === 'function')
-  expectedLanguage = (()=> expectedLanguage({
-    english: 'English',
-    german: 'German',
-    spanish: 'Spanish'
-  }))();
   
   if (result.language == expectedLanguage){
     result.test = g + 'PASS' + nc;
