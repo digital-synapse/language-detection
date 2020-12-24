@@ -1,4 +1,5 @@
 console.clear();
+const columnify = require('columnify');
 const tf = require('@tensorflow/tfjs-node-gpu');
 const language = require('./language')(tf);
 let training_epochs = 5000;
@@ -12,7 +13,6 @@ language.run(async ()=>{
     
     
     training_data.forEach(t => {
-      // default 
       t.needsTraining=true;
       
       // no model (language.load() did not find a saved model to load, so create a new one)
@@ -29,11 +29,13 @@ language.run(async ()=>{
       else{
         training_epochs = 500;
         const vd = language.validation_data.find(x=>x.language == t.language);
-        const result = language.detectTest(vd.text, vd.language);
+        if (vd){
+          const result = language.detectTest(vd.text, vd.language);
         
-        // model is predicting correctly
-        if (result.pass){
-          t.needsTraining = false;
+          // model is predicting correctly
+          if (result.pass){
+            t.needsTraining = false;
+          }
         }
       }
 
@@ -77,7 +79,7 @@ language.run(async ()=>{
       }
       xy.push(tmp);
     }
-    //const xy = [].concat.apply([], training_data.map(x=>x.xx.language == x.language ? 1 : 0)); 
+
     const training_tasks=[];
     training_data.forEach((t,i) => {
       training_tasks.push( t.model.fit(tf.tensor(xx), tf.tensor(xy[i]), {
@@ -101,8 +103,7 @@ language.run(async ()=>{
       training_data.forEach(t=> {
         if (i < 3){
         tmp.push(t.language)
-        //tmp.push(t.epoch)
-        tmp.push(t.logs.loss);
+        tmp.push(t.logs.loss.toFixed(5));
         i++;
         }
         else {
@@ -114,7 +115,7 @@ language.run(async ()=>{
       if (tmp.length > 0) table.push(tmp);
       console.clear();
       console.log(`Epoch ${training_data[0].epoch} of ${training_epochs}`)
-      console.table(table);
+      console.log(columnify(table));
     },1000);
     await Promise.all(training_tasks);
     clearInterval(t);
