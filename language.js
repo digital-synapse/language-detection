@@ -7,18 +7,22 @@ let instance = {
   indexOfMax,
   arr,
   repeat,
-  vectorize
+  vectorize,
+  loadJSON
 };
 let training_data;
 let tf;
 
+function loadJSON(filePath){
+  return JSON.parse(fs.readFileSync(filePath,'utf-8'));
+}
 async function load(tryLoadSavedModels = true){
-  training_data = JSON.parse(fs.readFileSync('./languagedetect/training-data.json','utf-8'));
+  training_data = loadJSON('./languagedetect/data/training-data-1.json');
   instance.training_data = training_data;
 
   if (tryLoadSavedModels){
     for (let i=0; i<training_data.length; i++){    
-      training_data[i].model = await tf.loadLayersModel(`file://./languagedetect/model/${training_data[i].language}/model.json`);
+      training_data[i].model = await tf.loadLayersModel(`file://./languagedetect/data/model/${training_data[i].language}/model.json`);
     };
   }
   return instance;
@@ -63,6 +67,11 @@ function repeat(v,times){
   }
   return a;
 }
+function normalizeLen(str, len = 30){  
+  if (str.length < len) str = str.padEnd(len,' ');
+  if (str.length > len) str = str.substring(0,len);
+  return str;
+}
 function vectorize(str){
   if (str.length < 30) str = str.padEnd(30,' ');
   let charCodes=[];
@@ -90,13 +99,13 @@ function detect(inputString){
 
   const results = training_data.map(data => {
     const result = data.model.predict(tf.tensor(vectorize(inputString)).reshape([1,30]));
-    const result_prediction = result.arraySync()[0];
+    const result_prediction = result.arraySync()[0][0];
     return { predicted: data.language, confidence: result_prediction };
   });
 
   results.sort((a,b) => b.confidence - a.confidence);
   let max = results[0];
-  max.input = inputString;
+  max.input = normalizeLen(inputString);
   
   return max;
 }

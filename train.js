@@ -20,7 +20,7 @@ language.run(async ()=>{
         ]});      
         t.model = model;
       }  
-      t.model.compile({ optimizer: 'adam', loss: 'meanSquaredError', lr: 0.1 });
+      t.model.compile({ optimizer: 'adam', loss: 'binaryCrossentropy', lr: 0.001 });
     });
 
     let shortest = training_data[0].text.length;
@@ -101,6 +101,6 @@ language.run(async ()=>{
     clearInterval(t);
 
     training_data.forEach(async (t,i) => {
-      await t.model.save(`file://./languagedetect/model/${t.language}`);
+      await t.model.save(`file://./languagedetect/data/model/${t.language}`);
     });
 });

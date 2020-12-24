@@ -1,0 +1,512 @@
+[
+    {
+      "language": "English",
+      "symbol": "en",
+      "text": "There was a time when he would have embraced the change that was coming. In his youth, he sought adventure and the unknown, but that had been years ago. He wished he could go back and learn to find the excitement that came with change but it was useless. That curiosity had long left him to where he had come to loathe anything that put him out of his comfort zone."
+    },  
+    {
+        "language": "Arabic",
+        "symbol": "ar",
+        "text": "كان هناك وقت كان سيتبنى فيه التغيير القادم. في شبابه ، سعى إلى المغامرة والمجهول ، لكن ذلك كان منذ سنوات. كان يتمنى أن يتمكن من العودة وتعلم كيفية العثور على الإثارة التي جاءت مع التغيير لكنها كانت عديمة الفائدة لقد تركه هذا الفضول لفترة طويلة حيث جاء ليكره أي شيء يخرجه من منطقة الراحة الخاصة به."
+    },
+    {
+        "language": "Dutch",
+        "symbol": "nl",
+        "text": "Er was een tijd dat hij de komende verandering zou hebben omarmd. In zijn jeugd zocht hij avontuur en het onbekende, maar dat was jaren geleden. Hij wenste dat hij terug kon gaan om de opwinding te ontdekken die met verandering gepaard ging, maar het had geen zin. Die nieuwsgierigheid had hem lang verlaten waar hij was gekomen om alles te verafschuwen dat hem uit zijn comfortzone bracht."
+    },
+    {
+        "language": "French",
+        "symbol": "fr",
+        "text": "Il fut un temps où il aurait embrassé le changement à venir. Dans sa jeunesse, il cherchait l'aventure et l'inconnu, mais c'était il y a des années. Il souhaitait pouvoir revenir en arrière et apprendre à trouver l'excitation qui accompagnait le changement, mais c'était inutile. Cette curiosité l'avait longtemps laissé là où il en était venu à détester tout ce qui le mettait hors de sa zone de confort."
+    },
+    {
+        "language": "German",
+        "symbol": "de",
+        "text": "Es gab eine Zeit, in der er die bevorstehende Veränderung angenommen hätte. In seiner Jugend suchte er Abenteuer und Unbekanntes, aber das war vor Jahren gewesen. Er wünschte, er könnte zurückgehen und lernen, die Aufregung zu finden, die mit der Veränderung einherging, aber sie war nutzlos. Diese Neugier hatte ihn lange dahin zurückgelassen, wo er gekommen war, um alles zu verabscheuen, was ihn aus seiner Komfortzone brachte."
+    },
+    {
+        "language": "Italian",
+        "symbol": "it",
+        "text": "C'è stato un tempo in cui avrebbe abbracciato il cambiamento che stava arrivando. Nella sua giovinezza, ha cercato l'avventura e l'ignoto, ma era stato anni prima. Avrebbe voluto poter tornare indietro e imparare a trovare l'eccitazione che derivava dal cambiamento, ma era inutile. Quella curiosità lo aveva lasciato da tempo al punto in cui era arrivato a detestare qualsiasi cosa lo mettesse fuori dalla sua zona di comfort."
+    },
+    {
+        "language": "Japanese",
+        "symbol": "ja",
+        "text": "彼が来たるべき変化を受け入れたであろう時がありました。若い頃、彼は冒険と未知のものを求めていましたが、それは何年も前のことでした。彼は戻って変化に伴う興奮を見つけることを学ぶことができればと思ったが、それは役に立たなかった。その好奇心は長い間、彼を快適ゾーンから追い出すものを嫌うようになった場所に彼を置き去りにしました。"
+    },
+    {
+        "language": "Russian",
+        "symbol": "ru",
+        "text": "Было время, когда он принял грядущие перемены. В юности он искал приключений и неизведанного, но это было много лет назад. Он хотел бы вернуться и научиться находить волнение, которое приходит с переменой, но это было бесполезно. Это любопытство давно привело его к тому, что он стал ненавидеть все, что выводило его из зоны комфорта."
+    },
+    {
+        "language": "Spanish",
+        "symbol": "es",
+        "text": "Hubo un momento en el que habría aceptado el cambio que se avecinaba. En su juventud, buscó la aventura y lo desconocido, pero eso había sido años atrás. Deseó poder volver atrás y aprender a encontrar la emoción que venía con el cambio, pero era inútil. Esa curiosidad lo había dejado por mucho tiempo donde había llegado a odiar cualquier cosa que lo pusiera fuera de su zona de confort."
+    },
+    {
+        "language": "Catalan",
+        "symbol": "ca",
+        "text": "Hi va haver un moment en què hauria abraçat el canvi que s’acostava. Durant la seva joventut, buscava l’aventura i el desconegut, però això havia passat anys enrere. Desitjava poder tornar enrere i aprendre a trobar l’emoció que comportava el canvi, però no servia per a res. Aquella curiositat l’havia deixat des de feia molt temps a on havia vingut a odiar qualsevol cosa que el deixés fora de la seva zona de confort."
+    },
+    {
+        "language": "Bulgarian",
+        "symbol": "bg",
+        "text": "Имаше време, когато той щеше да възприеме промяната, която предстои. В младостта си той търси приключения и неизвестното, но това беше преди години. Искаше му се да може да се върне и да се научи да открива вълнението, което дойде с промяната, но беше безполезно. Това любопитство отдавна го беше оставило до мястото, където беше дошъл да ненавижда всичко, което го извежда извън зоната му на комфорт."
+    },
+    {
+        "language": "Bengali",
+        "symbol": "bn",
+        "text": "এমন একটি সময় ছিল যখন তিনি আগত পরিবর্তনটি গ্রহণ করেছিলেন। যৌবনে, তিনি দু: সাহসিক কাজ এবং অজানা চেয়েছিলেন, তবে এটি বহু বছর আগে। তিনি ইচ্ছা করেছিলেন যে তিনি ফিরে যেতে পারেন এবং পরিবর্তনের সাথে যে উত্তেজনা পেয়েছিলেন তা সন্ধান করতে পারেন তবে এটি অকেজো। এই কৌতূহল তাকে দীর্ঘস্থায়ী করে ফেলেছিল যেখানে তিনি এমন কিছু ঘৃণা করতে এসেছিলেন যা তাকে তাঁর আরামের অঞ্চল থেকে দূরে সরিয়ে দেয়।"
+    },
+    {
+        "language": "Chinese Simplified",
+        "symbol": "zh-cn",
+        "text": "曾经有一段时间他会接受即将发生的变化。在他的青年时代，他寻求冒险和未知的事物，但是那是几年前的事了。他希望自己可以回去学习发现变化带来的兴奋，但是那没用。好奇心早已使他离开了他厌恶任何使他脱离舒适区的地方。"
+    },
+    {
+        "language": "Czech",
+        "symbol": "cs",
+        "text": "Byly doby, kdy by přijal změnu, která přichází. V mládí hledal dobrodružství a neznámo, ale to už bylo před lety. Přál si, aby se mohl vrátit a naučit se najít vzrušení, které přišlo se změnou, ale bylo to zbytečné. Ta zvědavost ho už dlouho nechala tam, kde přišel nenávidět cokoli, co ho dostalo z jeho komfortní zóny."
+    },
+    {
+        "language": "Croatian",
+        "symbol": "hr",
+        "text": "Bilo je vrijeme kada bi prihvatio promjenu koja dolazi. U mladosti je tražio avanturu i nepoznato, ali to je bilo godinama. Poželio je da se može vratiti i naučiti pronaći uzbuđenje koje je došlo s promjenom, ali bilo je beskorisno. Ta ga je znatiželja već dugo ostavljala tamo gdje je došao da mu se gadi sve što ga je izbacilo iz njegove zone udobnosti."
+    },
+    {
+        "language": "Chinese Traditional",
+        "symbol": "zh-tw",
+        "text": "曾經有一段時間他會接受即將發生的變化。在他的青年時代，他尋求冒險和未知的事物，但是那是幾年前的事了。他希望自己可以回去學習發現變化帶來的興奮，但是那沒用。好奇心早已使他離開了他厭惡任何使他脫離舒適區的地方。"
+    },
+    {
+        "language": "Danish",
+        "symbol": "da",
+        "text": "Der var en tid, hvor han ville have taget den ændring, der kom, til sig. I sin ungdom søgte han eventyr og det ukendte, men det havde været for mange år siden. Han ønskede, at han kunne gå tilbage og lære at finde den spænding, der fulgte med forandring, men den var ubrugelig. Denne nysgerrighed havde længe efterladt ham, hvor han var kommet for at afsky noget, der bragte ham ud af hans komfortzone."
+    },
+    {
+        "language": "Estonian",
+        "symbol": "et",
+        "text": "Oli aeg, mil ta oleks saabuva muutuse omaks võtnud. Nooruses otsis ta seiklusi ja tundmatut, kuid see oli olnud aastaid tagasi. Ta soovis, et saaks tagasi minna ja õppida muutustega kaasnevat põnevust leidma, kuid see oli kasutu. See uudishimu oli ta juba ammu jätnud sinna, kuhu ta oli tulnud, et jälestada kõike, mis viis ta mugavustsoonist välja."
+    },
+    {
+        "language": "Filipino",
+        "symbol": "tl",
+        "text": "Mayroong isang oras na sana ay yakapin niya ang darating na pagbabago. Sa kanyang kabataan, naghahanap siya ng pakikipagsapalaran at hindi alam, ngunit ito ay mga taon na ang nakalilipas. Hangad niya na makabalik siya at malaman niyang makahanap ng pananabik na may kasamang pagbabago ngunit wala itong silbi. Ang pag-usisa na iyon ay matagal nang iniiwan sa kanya sa kung saan siya dumating upang makayayamot sa anumang bagay na naglagay sa kanya sa labas ng kanyang kaginhawaan."
+    },
+    {
+        "language": "Finnish",
+        "symbol": "fi",
+        "text": "Oli aika, jolloin hän olisi omaksunut tulevan muutoksen. Nuoruudessaan hän etsi seikkailua ja tuntematonta, mutta se oli ollut vuosia sitten. Hän toivoi voivansa palata takaisin ja oppia löytämään muutoksen aiheuttaman jännityksen, mutta se oli hyödytöntä. Tuo uteliaisuus oli pitkään jättänyt hänet sinne, missä hän oli tullut inhoamaan kaikkea, mikä vei hänet ulos mukavuusvyöhykkeestään."
+    },
+    {
+        "language": "Esperanto",
+        "symbol": "eo",
+        "text": "Estis tempo, kiam li akceptus la venontan ŝanĝon. En sia junaĝo li serĉis aventuron kaj nekonatecon, sed tio estis antaŭ jaroj. Li deziris, ke li povos reiri kaj lerni trovi la eksciton, kiu venis kun ŝanĝo, sed ĝi estis senutila. Tiu scivolemo delonge lasis lin tien, kien li venis por abomeni ĉion, kio metis lin ekster lian komfortan zonon."
+    },
+    {
+        "language": "Greek",
+        "symbol": "el",
+        "text": "Υπήρχε μια στιγμή που θα είχε αγκαλιάσει την αλλαγή που επερχόταν. Στη νεολαία του, αναζήτησε περιπέτεια και το άγνωστο, αλλά αυτό ήταν πριν από χρόνια. Μακάρι να μπορούσε να επιστρέψει και να μάθει να βρει τον ενθουσιασμό που ήρθε με την αλλαγή αλλά ήταν άχρηστο. Αυτή η περιέργεια τον είχε αφήσει εδώ και πολύ καιρό στο σημείο που είχε έρθει να αποθαρρύνει οτιδήποτε τον έβγαλε από τη ζώνη άνεσής του."
+    },
+    {
+        "language": "Indonesian",
+        "symbol": "id",
+        "text": "Ada saat ketika dia akan menerima perubahan yang akan datang. Di masa mudanya, dia mencari petualangan dan hal yang tidak diketahui, tapi itu sudah bertahun-tahun yang lalu. Dia berharap dia bisa kembali dan belajar menemukan kegembiraan yang datang dengan perubahan tetapi itu tidak berguna. Keingintahuan itu telah lama meninggalkannya di tempat dia datang untuk membenci apa pun yang membuatnya keluar dari zona nyamannya."
+    },
+    {
+        "language": "Hebrew",
+        "symbol": "iw",
+        "text": "הייתה תקופה שהוא היה מאמץ את השינוי שבא. בצעירותו הוא חיפש הרפתקאות ואלמוני, אך זה היה לפני שנים. הוא איחל שיוכל לחזור וללמוד למצוא את ההתרגשות שבאה בשינוי, אך זה היה חסר תועלת. הסקרנות ההיא השאירה אותו מזמן למקום בו הגיע להתיעב מכל מה שיוציא אותו מאזור הנוחות שלו."
+    },
+    {
+        "language": "Lithuanian",
+        "symbol": "lt",
+        "text": "Buvo laikas, kai jis būtų priėmęs artėjančius pokyčius. Jaunystėje jis ieškojo nuotykių ir nežinomybės, tačiau tai buvo dar prieš daugelį metų. Jis norėjo, kad galėtų grįžti atgal ir išmokti rasti jaudulį, susijusį su pokyčiais, tačiau jis buvo nenaudingas. Tas smalsumas jau seniai paliko jį ten, kur jis atėjo, kad pasibjaurėtų viskuo, kas išvedė jį iš komforto zonos."
+    },
+    {
+        "language": "Korean",
+        "symbol": "ko",
+        "text": "그가 다가오는 변화를 받아 들였을 때가있었습니다. 어린 시절에 그는 모험과 미지의 것을 추구했지만 그것은 몇 년 전이었습니다. 그는 돌아가서 변화와 함께 오는 흥분을 찾는 법을 배우기를 원했지만 쓸모가 없었습니다. 그 호기심은 오랫동안 그를 자신의 안전 지대에서 벗어나게하는 모든 것을 혐오하기 위해 왔던 곳으로 남겨 두었습니다."
+    },
+    {
+        "language": "Malay",
+        "symbol": "ms",
+        "text": "Ada saatnya dia akan menerima perubahan yang akan datang. Pada masa mudanya, dia mencari pengembaraan dan yang tidak diketahui, tetapi itu sudah bertahun-tahun yang lalu. Dia berharap dia dapat kembali dan belajar mencari kegembiraan yang datang dengan perubahan tetapi tidak ada gunanya. Rasa ingin tahu itu telah lama meninggalkannya ke tempat dia datang untuk membenci apa sahaja yang membuatnya keluar dari zon selesa."
+    },
+    {
+        "language": "Latvian",
+        "symbol": "lv",
+        "text": "Bija laiks, kad viņš būtu pieņēmis tuvojošās pārmaiņas. Jaunībā viņš meklēja piedzīvojumus un nezināmo, bet tas bija pirms gadiem. Viņš vēlējās, lai viņš varētu atgriezties un iemācīties atrast uztraukumu, ko radīja pārmaiņas, taču tas bija bezjēdzīgi. Šī zinātkāre viņu jau sen bija atstājusi tur, kur viņš bija ieradies, lai riebtos no visa, kas viņu izlika no komforta zonas."
+    },
+    {
+        "language": "Malayalam",
+        "symbol": "ml",
+        "text": "വരാനിരിക്കുന്ന മാറ്റത്തെ അദ്ദേഹം സ്വീകരിക്കുമായിരുന്ന ഒരു കാലമുണ്ടായിരുന്നു. ചെറുപ്പത്തിൽ അദ്ദേഹം സാഹസികതയും അജ്ഞാതവും തേടി, പക്ഷേ അത് വർഷങ്ങൾക്ക് മുമ്പായിരുന്നു. മാറ്റത്തിനൊപ്പം വന്ന ആവേശം കണ്ടെത്താൻ പഠിച്ച് തിരിച്ചുപോകാമെന്ന് അദ്ദേഹം ആഗ്രഹിച്ചുവെങ്കിലും അത് ഉപയോഗശൂന്യമായിരുന്നു. ആ ജിജ്ഞാസ വളരെക്കാലമായി അവനെ ആശ്വാസമേഖലയിൽ നിന്ന് പുറത്താക്കുന്ന എന്തും വെറുക്കാൻ വന്ന സ്ഥലത്തേക്ക് അവനെ വിട്ടുപോയി."
+    },
+    {
+        "language": "Polish",
+        "symbol": "pl",
+        "text": "Był czas, kiedy przyjąłby nadchodzącą zmianę. W młodości szukał przygody i nieznanego, ale to było lata temu. Żałował, że nie może wrócić i nauczyć się odczuwać podekscytowanie związane ze zmianą, ale było to bezużyteczne. Ta ciekawość już dawno sprawiła, że ​​znalazł się tam, gdzie nienawidził wszystkiego, co wyprowadziło go z jego strefy komfortu."
+    },
+    {
+        "language": "Norwegian",
+        "symbol": "no",
+        "text": "Det var en tid da han ville omfavnet endringen som kom. I sin ungdom søkte han eventyr og det ukjente, men det hadde vært for mange år siden. Han ønsket at han kunne gå tilbake og lære å finne spenningen som fulgte med endring, men den var ubrukelig. Den nysgjerrigheten hadde lenge forlatt ham der han hadde kommet for å avskyr alt som satte ham utenfor komfortsonen."
+    },
+    {
+        "language": "Romanian",
+        "symbol": "ro",
+        "text": "A fost o vreme când ar fi îmbrățișat schimbarea care urma. În tinerețe, el a căutat aventura și necunoscutul, dar asta fusese cu ani în urmă. Își dorea să se poată întoarce și să învețe să găsească entuziasmul care a venit odată cu schimbarea, dar a fost inutil. Curiozitatea aceea îl lăsase de mult până acolo unde venise să urască orice îi scotea din zona de confort."
+    },
+    {
+        "language": "Portuguese",
+        "symbol": "pt",
+        "text": "Houve um tempo em que ele teria abraçado a mudança que estava por vir. Em sua juventude, ele buscou aventura e o desconhecido, mas isso havia sido anos atrás. Ele gostaria de poder voltar e aprender a encontrar a emoção que vem com a mudança, mas era inútil. Essa curiosidade há muito o deixou onde ele tinha vindo para odiar qualquer coisa que o colocasse fora de sua zona de conforto."
+    },
+    {
+        "language": "Marathi",
+        "symbol": "mr",
+        "text": "एक वेळ असा होता की तो येत असलेल्या परिवर्तनास मिठी मारला असता. तारुण्यात तो साहस आणि अज्ञात शोधत असे, परंतु हे बर्‍याच वर्षांपूर्वी होते. त्याने परत जावे आणि परिवर्तनासहित उद्दीपन शोधण्यास शिकावे अशी त्याची इच्छा होती परंतु ते निरुपयोगी होते. त्या उत्सुकतेमुळे त्याने त्याला तिथे सोडले जेथे त्याला आपल्या कम्फर्ट झोनमधून बाहेर टाकणार्‍या कोणत्याही गोष्टीबद्दल घृणा वाटली."
+    },
+    {
+        "language": "Serbian",
+        "symbol": "sr",
+        "text": "Било је време када би он прихватио промену која је долазила. У младости је тражио авантуру и непознато, али то је било годинама. Пожелео је да се може вратити и научити да открива узбуђење које је дошло са променом, али било је бескорисно. Та радозналост га је дуго остављала тамо где је дошао да се гнуша свега што га је избацило из његове зоне комфора."
+    },
+    {
+        "language": "Tamil",
+        "symbol": "ta",
+        "text": "வரவிருக்கும் மாற்றத்தை அவர் ஏற்றுக்கொண்ட ஒரு காலம் இருந்தது. அவரது இளமை பருவத்தில், அவர் சாகசத்தையும் அறியாததையும் நாடினார், ஆனால் அது பல ஆண்டுகளுக்கு முன்பு இருந்தது. அவர் திரும்பிச் சென்று மாற்றத்துடன் வந்த உற்சாகத்தைக் கண்டுபிடிக்க கற்றுக்கொள்ள விரும்பினார், ஆனால் அது பயனற்றது. அந்த ஆர்வம் நீண்ட காலமாக அவரை தனது ஆறுதல் மண்டலத்திலிருந்து வெளியேற்றும் எதையும் வெறுக்க வந்த இடத்திற்கு அவரை விட்டுச் சென்றது."
+    },
+    {
+        "language": "Turkish",
+        "symbol": "tr",
+        "text": "Gelmekte olan değişimi kucaklayacağı bir zaman vardı. Gençliğinde macera ve bilinmeyeni aradı, ama bu yıllar önceydi. Geri dönüp değişimle gelen heyecanı bulmayı öğrenmeyi diledi ama bu işe yaramazdı. Bu merak onu uzun zamandır rahatlık alanından çıkaran her şeyden nefret etmeye geldiği yere bırakmıştı."
+    },
+    {
+        "language": "Vietnamese",
+        "symbol": "vi",
+        "text": "Đã có lúc anh ấy chấp nhận sự thay đổi sắp tới. Thời trẻ, anh tìm kiếm sự phiêu lưu và những điều chưa biết, nhưng điều đó đã xảy ra từ nhiều năm trước. Anh ước mình có thể quay trở lại và học hỏi để tìm lại niềm hứng khởi đi kèm với sự thay đổi nhưng vô ích. Sự tò mò đó từ lâu đã khiến anh ta đến nơi anh ta đến để ghê tởm bất cứ điều gì khiến anh ta ra khỏi vùng an toàn của mình."
+    },
+    {
+        "language": "Ukrainian",
+        "symbol": "uk",
+        "text": "Був час, коли він сприйняв би зміни, що наставали. У молодості він шукав пригод і невідомого, але це було багато років тому. Він хотів, щоб він міг повернутися назад і навчитися знаходити хвилювання, яке прийшло зі змінами, але це було марно. Ця цікавість давно залишила його туди, куди він прийшов, щоб ненавидіти все, що виводило його із зони комфорту."
+    },
+    {
+        "language": "Telugu",
+        "symbol": "te",
+        "text": "అతను రాబోయే మార్పును స్వీకరించే సమయం ఉంది. తన యవ్వనంలో, అతను సాహసం మరియు తెలియని వాటిని కోరుకున్నాడు, కానీ అది సంవత్సరాల క్రితం జరిగింది. అతను తిరిగి వెళ్లి మార్పుతో వచ్చిన ఉత్సాహాన్ని కనుగొనడం నేర్చుకోవాలని అతను కోరుకున్నాడు, కానీ అది పనికిరానిది. ఆ ఉత్సుకత అతన్ని తన కంఫర్ట్ జోన్ నుండి బయట పెట్టే దేనినైనా అసహ్యించుకోవడానికి వచ్చిన చోటికి అతన్ని వదిలివేసింది."
+    },
+    {
+        "language": "Swedish",
+        "symbol": "sv",
+        "text": "Det fanns en tid då han skulle ha omfamnat den förändring som kommit. I sin ungdom sökte han äventyr och det okända, men det hade varit år sedan. Han önskade att han kunde gå tillbaka och lära sig att hitta spänningen som kom med förändring men den var värdelös. Den nyfikenheten hade länge lämnat honom dit han hade kommit för att avskyr allt som förde honom utanför hans komfortzon."
+    },
+    {
+        "language": "Slovak",
+        "symbol": "sk",
+        "text": "Boli chvíle, keď by prijal zmenu, ktorá prichádzala. V mladosti hľadal dobrodružstvo a nepoznané, ale to bolo už pred rokmi. Prial si, aby sa mohol vrátiť späť a naučiť sa nájsť vzrušenie, ktoré prišlo so zmenou, ale bolo to zbytočné. Táto zvedavosť ho už dávno nechala tam, kde prišiel nenávidieť čokoľvek, čo ho dostalo z jeho komfortnej zóny."
+    },
+    {
+        "language": "Slovenian",
+        "symbol": "sl",
+        "text": "Včasih je sprejel spremembe, ki prihajajo. V mladosti je iskal pustolovščine in neznano, toda to je bilo že pred leti. Želel si je, da bi se lahko vrnil nazaj in se naučil najti vznemirjenje, ki ga je prinesla sprememba, vendar je bilo neuporabno. Ta radovednost ga je že dolgo pustila tja, kamor je prišel, da bi se gnusil vsega, kar ga je spravilo iz njegove cone udobja."
+    },
+    {
+        "language": "Tajik",
+        "symbol": "tg",
+        "text": "Замоне буд, ки ӯ тағироти дарпешистодаро қабул мекард. Дар ҷавонӣ, ӯ саёҳат ва чизи номаълумро меҷуст, аммо ин солҳои пеш буд. Вай орзу дошт, ки баргардад ва пайдо кардани ҳаяҷонеро, ки бо тағирот омадааст, ёд гирад, аммо ин бефоида буд. Ин кунҷковӣ ӯро кайҳо ба он ҷое равона карда буд, ки ҳар чизе, ки ӯро аз минтақаи бароҳатиаш берун мекард, нафрат дошт."
+    },
+    {
+        "language": "Thai",
+        "symbol": "th",
+        "text": "มีช่วงเวลาที่เขาจะยอมรับการเปลี่ยนแปลงที่กำลังจะมาถึง ในวัยหนุ่มเขาแสวงหาการผจญภัยและสิ่งที่ไม่รู้จัก แต่นั่นก็ผ่านมาหลายปีแล้ว เขาหวังว่าจะได้กลับไปเรียนรู้เพื่อค้นหาความตื่นเต้นที่มาพร้อมกับการเปลี่ยนแปลง แต่มันก็ไร้ผล ความอยากรู้อยากเห็นนั้นทิ้งเขาไปนานแล้วว่าเขาจะเกลียดอะไรที่ทำให้เขาออกจากเขตสบาย ๆ"
+    },
+    {
+        "language": "Afrikaans",
+        "symbol": "af",
+        "text": "Daar was 'n tyd toe hy die verandering wat sou kom, sou aanvaar. In sy jeug het hy na avontuur en die onbekende gesoek, maar dit was jare gelede. Hy het gewens dat hy kon teruggaan en leer om die opwinding wat met verandering gepaardgaan te vind, maar dit was nutteloos. Daardie nuuskierigheid het hom lank gelaat tot waar hy gekom het om iets te verfoei wat hom buite sy gemaksone geplaas het."
+    },
+    {
+        "language": "Albanian",
+        "symbol": "sq",
+        "text": "Ishte një kohë kur ai do të kishte përqafuar ndryshimin që po vinte. Në rininë e tij, ai kërkoi aventurë dhe të panjohurën, por kjo kishte qenë vite më parë. Ai dëshironte që ai të kthehej dhe të mësonte të gjente eksitimin që erdhi me ndryshimin, por ishte i padobishëm. Ai kuriozitet e kishte lënë prej kohësh atje ku kishte ardhur për të neveritur gjithçka që e largonte nga zona e tij e rehatisë."
+    },
+    {
+        "language": "Amharic",
+        "symbol": "am",
+        "text": "እየመጣ ያለውን ለውጥ የሚቀበልበት ጊዜ ነበር ፡፡ በወጣትነቱ ጀብዱ እና ያልታወቀውን ይፈልግ ነበር ፣ ግን ያ ከዓመታት በፊት ነበር። በለውጥ የመጣውን ደስታ ለማግኘት ወደ ኋላ ተመልሶ መማር ይችል ነበር ግን ፋይዳ አልነበረውም ፡፡ ያ የማወቅ ጉጉት ከምቾቱ አከባቢ የሚያወጣውን ማንኛውንም ነገር ለመጸየፍ ወደ መጣበት ቦታ ከረጅም ጊዜ ጀምሮ ትቶት ነበር ፡፡"
+    },
+    {
+        "language": "Basque",
+        "symbol": "eu",
+        "text": "Garai batean etorriko zen aldaketa bereganatuko zuen. Gaztetan, abentura eta ezezaguna bilatu zituen, baina duela urte batzuk. Nahi izan zuen atzera egin eta aldaketarekin zetorren ilusioa aurkitzen ikas zezakeela baina alferrikakoa izan zen. Bitxikeria hark aspaldi utzi zuen erosotasunetik kanpo uzten zuen edozer gauza gorrotatzera."
+    },
+    {
+        "language": "Cebuano",
+        "symbol": "ceb",
+        "text": "Adunay panahon kung kanus-a niya paghangupon ang umaabot nga pagbag-o. Sa iyang pagkabatan-on, gipangita niya ang panimpalad ug wala mahibal-an, apan kana ang mga tuig na ang nakalabay. Nanghinaut siya nga makabalik siya ug mahibal-an nga makapangita ang kahinam nga nag-uban sa pagbag-o apan wala kini pulus. Ang kana nga pagkamausisaon dugay na nga nagpabiya kaniya diin siya mianhi aron pagdumtan ang bisan unsang butang nga makapahawa kaniya gikan sa iyang lugar nga komportable."
+    },
+    {
+        "language": "Azerbaijani",
+        "symbol": "az",
+        "text": "Vaxt var idi ki, gələcək dəyişikliyi qəbul edəcəkdi. Gəncliyində macəra və bilinməyən şeylər axtarırdı, amma bu illər əvvəl olmuşdu. Yenidən qayıdıb dəyişikliklə gələn həyəcanı tapmağı öyrənməsini istəsə də, faydasız idi. Bu maraq onu çoxdan rahat hissindən kənarlaşdıran hər şeydən nifrət etmək üçün gəldiyi yerə tərk etmişdi."
+    },
+    {
+        "language": "Bosnian",
+        "symbol": "bs",
+        "text": "Bilo je vrijeme kada bi prihvatio promjenu koja dolazi. U mladosti je tražio avanturu i nepoznato, ali to je bilo godinama. Poželio je da se može vratiti i naučiti pronaći uzbuđenje koje je došlo s promjenom, ali bilo je beskorisno. Ta ga je znatiželja već dugo ostavila tamo gdje je došao da se gnuša svega što ga je izbacilo iz njegove zone udobnosti."
+    },
+    {
+        "language": "Corsican",
+        "symbol": "co",
+        "text": "Ci hè statu un mumentu quandu ellu averia abbracciatu u cambiamentu chì vinia. In a so ghjuventù, circava l'avventura è l'inconnu, ma era statu anni fà. Hà desideratu di pudè vultà in daretu è amparà à truvà l'eccitazione chì venia cun u cambiamentu ma era inutile. Quella curiosità l’avia lasciatu da tantu tempu induv’ellu era ghjuntu à odià tuttu ciò chì u mettia fora di a so zona di cunfortu."
+    },
+    {
+        "language": "Armenian",
+        "symbol": "hy",
+        "text": "Wasամանակ կար, որ նա ընդուներ փոփոխությունը, որը գալիս էր: Երիտասարդության տարիներին նա փնտրում էր արկածախնդրություն և անհայտ, բայց դա եղել էր տարիներ առաջ: Նա կցանկանար, որ նա վերադառնար և սովորեր գտնել հուզմունքը, որն առաջացել էր փոփոխություններով, բայց դա անօգուտ էր: Այդ հետաքրքրասիրությունը նրան վաղուց էր թողել այնտեղ, ուր նա եկել էր զզվել այն ամենից, ինչը նրան դուրս էր մղում իր հարմարավետության գոտուց:"
+    },
+    {
+        "language": "Belarusian",
+        "symbol": "be",
+        "text": "Быў час, калі ён прыняў бы змены, якія надышлі. У маладосці ён шукаў прыгод і невядомага, але гэта было шмат гадоў таму. Ён хацеў вярнуцца назад і навучыцца знаходзіць хваляванне, якое прыйшло са зменамі, але гэта было бескарысна. Гэта цікаўнасць даўно пакінула яго туды, куды ён прыйшоў, каб ненавідзець усё, што выводзіла яго з зоны камфорту."
+    },
+    {
+        "language": "Chichewa",
+        "symbol": "ny",
+        "text": "Panali nthawi yomwe akanatha kuvomereza kusintha komwe kunali kubwera. Ali mwana, adafuna kuchita zinthu zosadziwika, koma izi zinali zaka zapitazo. Adalakalaka atapitanso kukaphunzira kukapeza chisangalalo chomwe chimabwera ndikusintha koma sichinathandize. Chidwi chimenecho chidamusiya komwe adabwera kudana ndi chilichonse chomwe chimamupangitsa kuti asakhale bwino."
+    },
+    {
+        "language": "Galician",
+        "symbol": "gl",
+        "text": "Houbo un momento no que aceptaría o cambio que se aveciñaba. Na súa mocidade buscou aventuras e incógnitas, pero iso fora hai anos. Desexaba poder volver atrás e aprender a atopar a emoción que derivaba do cambio, pero non serviu para nada. Esa curiosidade deixárao desde facía moito tempo ata onde chegara a odiar calquera cousa que o sacase da súa zona de confort."
+    },
+    {
+        "language": "Hausa",
+        "symbol": "ha",
+        "text": "Akwai lokacin da zai rungumi canjin da ke zuwa. A cikin samartakarsa, ya nemi kasada da abin da ba a sani ba, amma hakan ya kasance shekaru da suka gabata. Ya yi fatan zai iya komawa ya koya ya sami farin ciki da ya zo da canji amma ba shi da amfani. Wannan sha'awar ta daɗe ta bar shi zuwa inda ya zo don ƙyamar duk abin da zai fitar da shi daga yankin da yake cikin kwanciyar hankali."
+    },
+    {
+        "language": "Georgian",
+        "symbol": "ka",
+        "text": "იყო დრო, როდესაც ის მიიღებდა ცვლილებას, რომელიც მოდიოდა. ახალგაზრდობაში ის ეძებდა თავგადასავლებს და უცნობებს, მაგრამ ეს უკვე წლების წინ მოხდა. მას სურდა, რომ შეეძლო დაბრუნება და ისწავლა იმ მღელვარების პოვნა, რაც ცვლილებებს მოჰყვა, მაგრამ ეს აზრი არ ჰქონდა. ამ ცნობისმოყვარეობამ მას დიდი ხანი მიატოვა იქ, სადაც ის იყო საძულველი ყველაფრის გამო, რომელიც მას კომფორტის ზონიდან გამოჰყავდა."
+    },
+    {
+        "language": "Haitian Creole",
+        "symbol": "ht",
+        "text": "Te gen yon tan lè li ta anbrase chanjman ki tap vini an. Nan jèn li, li t'ap chache avanti ak enkoni an, men sa ki te ane de sa. Li te swete li te kapab tounen epi aprann jwenn eksitasyon ki te vini ak chanjman men li te initil. Sa kiryozite te lontan kite l 'nan kote li te vin nan repiyans anyen ki mete l' soti nan zòn konfò l 'yo."
+    },
+    {
+        "language": "Hindi",
+        "symbol": "hi",
+        "text": "एक समय था जब वह आने वाले बदलाव को स्वीकार कर लेता था। अपनी युवावस्था में, उन्होंने रोमांच और अज्ञात की तलाश की, लेकिन यह वर्षों पहले था। वह कामना करता है कि वह वापस जाए और उस उत्साह को खोजना सीखे जो बदलाव के साथ आया था लेकिन यह बेकार था। उस जिज्ञासा ने उसे लंबे समय तक छोड़ दिया था जहां वह कुछ भी करने के लिए आया था जिसने उसे अपने आराम क्षेत्र से बाहर कर दिया था।"
+    },
+    {
+        "language": "Icelandic",
+        "symbol": "is",
+        "text": "Sú var tíðin að hann hefði tekið undir breytinguna sem var að koma. Í æsku leitaði hann að ævintýrum og hinu óþekkta, en það hafði verið árum saman. Hann vildi að hann gæti farið aftur og lært að finna spennuna sem fylgdi breytingum en hún var ónýt. Þessi forvitni hafði löngum skilið hann eftir þangað sem hann var kominn til að andstyðja allt sem setti hann út fyrir þægindarammann."
+    },
+    {
+        "language": "Javanese",
+        "symbol": "jw",
+        "text": "Ana wektu nalika dheweke bakal nampa pangowahan sing bakal teka. Nalika isih enom, dheweke ngulandara lan ora dingerteni, nanging wis pirang-pirang taun kepungkur. Dheweke ngarep-arep bisa bali lan sinau nemokake kesenengan sing bakal ana perubahan, nanging ora ana gunane. Penasaran iku wis suwe dheweke lunga menyang ngendi dheweke nresnani apa wae sing nyebabake dheweke ora bisa urip."
+    },
+    {
+        "language": "Lao",
+        "symbol": "lo",
+        "text": "ມີເວລາ ໜຶ່ງ ທີ່ລາວຈະຍອມຮັບເອົາການປ່ຽນແປງທີ່ ກຳ ລັງຈະມາ. ໃນໄວຫນຸ່ມລາວ, ລາວໄດ້ສະແຫວງຫາການຜະຈົນໄພແລະບໍ່ຮູ້ຕົວ, ແຕ່ວ່າມັນແມ່ນປີກ່ອນ. ລາວປາດຖະ ໜາ ວ່າລາວສາມາດກັບໄປຮຽນຮູ້ເພື່ອຊອກຫາຄວາມຕື່ນເຕັ້ນທີ່ມາພ້ອມກັບການປ່ຽນແປງແຕ່ມັນບໍ່ມີປະໂຫຍດຫຍັງເລີຍ. ຄວາມຢາກຮູ້ນັ້ນໄດ້ເຮັດໃຫ້ລາວຢູ່ບ່ອນທີ່ລາວໄດ້ກຽດຊັງສິ່ງທີ່ເຮັດໃຫ້ລາວຫລຸດອອກຈາກເຂດທີ່ລາວສະບາຍ."
+    },
+    {
+        "language": "Khmer",
+        "symbol": "km",
+        "text": "មានពេលមួយដែលគាត់នឹងទទួលយកការផ្លាស់ប្តូរដែលកំពុងមក។ នៅក្នុងយុវវ័យរបស់គាត់គាត់បានស្វែងរកការផ្សងព្រេងនិងអ្វីដែលមិនស្គាល់ប៉ុន្តែនោះជាច្រើនឆ្នាំមកហើយ។ គាត់ប្រាថ្នាថាគាត់អាចត្រលប់មកវិញហើយរៀនដើម្បីរកភាពរំជើបរំជួលដែលកើតឡើងជាមួយនឹងការផ្លាស់ប្តូរប៉ុន្តែវាគ្មានប្រយោជន៍ទេ។ ការចង់ដឹងចង់ឃើញនោះបានទុកគាត់ជាយូរមកហើយនៅកន្លែងដែលគាត់បានមកស្អប់អ្វីដែលធ្វើឱ្យគាត់ចេញពីតំបន់កំសាន្តរបស់គាត់។"
+    },
+    {
+        "language": "Igbo",
+        "symbol": "ig",
+        "text": "O nwere oge ọ gaara anabata mgbanwe ahụ na-abịa. N'oge ntorobịa ya, ọ chọrọ njem na ihe a na-amaghị ama, mana nke ahụ bụ ọtụtụ afọ gara aga. Ọ chọsiri ike ịlaghachi ma mụta ịchọta obi ụtọ nke gbanwere ma ọ nweghị uru. Ọchịchọ ịmata nke a emeela ka ọ hapụ ebe ọ bịara kpọọ ihe ọ bụla asị nke mere ka ọ daa n'ọnọdụ nkasi obi ya."
+    },
+    {
+        "language": "Hmong",
+        "symbol": "hmn",
+        "text": "Muaj ib lub sijhawm thaum nws yuav tau txais qhov kev hloov uas tab tom yuav los. Hauv nws cov hluas, nws tau nrhiav kev taug txuj kev nyuaj thiab qhov tsis paub, tab sis qhov ntawd tau xyoo dhau los. Nws xav tias nws tuaj yeem rov qab mus thiab kawm nrhiav kev zoo siab uas los ntawm kev hloov pauv tab sis nws tsis zoo siv. Qhov kev xav paub tau ntev dhau los tso nws mus rau qhov chaw uas nws tau mus dab tsi uas tso nws tawm ntawm nws qhov chaw xis."
+    },
+    {
+        "language": "Frisian",
+        "symbol": "fy",
+        "text": "D'r wie in tiid dat hy de feroaring dy't oankaam soe hawwe omearmd. Yn syn jeugd socht hy aventoer en it ûnbekende, mar dat wie al jierren lyn. Hy woe dat hy werom koe en leare de opwining te finen dy't kaam mei feroaring, mar it wie nutteloos. Dy nijsgjirrigens hie him lang efterlitten nei wêr't hy kaam om wat te wearze dat him bûten syn komfortensône sette."
+    },
+    {
+        "language": "Gujarati",
+        "symbol": "gu",
+        "text": "એક સમય હતો જ્યારે તે આવતાં પરિવર્તનને સ્વીકારી લેતો. યુવાનીમાં, તેણે સાહસ અને અજ્ unknownાતની શોધ કરી, પરંતુ તે વર્ષો પહેલાં હતું. તેની ઇચ્છા હતી કે તે પાછો ફરી શકે અને પરિવર્તન સાથે આવેલો ઉત્તેજના શોધવાનું શીખી શકે પરંતુ તે નકામું હતું. તે જિજ્ .ાસાએ તેને લાંબા સમય સુધી છોડી દીધો હતો જ્યાં તેને કોઈ પણ બાબતની ઘૃણા થવા આવી હતી જેણે તેને તેના આરામ ક્ષેત્રમાંથી બહાર કા .્યો હતો."
+    },
+    {
+        "language": "Hawaiian",
+        "symbol": "haw",
+        "text": "Aia kekahi manawa ke ʻapo ʻo ia i ka loli e hiki mai ana. I kona wā ʻōpio, ua ʻimi ʻo ia i ka pīhoihoi a me ka mea ʻike ʻole ʻia, akā ʻo ia nō nā makahiki i hala. Makemake ʻo ia e hoʻi ʻo ia a aʻo e ʻike i ka pīhoihoi i hele mai me ka loli akā he mea ʻole ia. Ua haʻalele ka lōʻihi o ka hoihoi iā ia i kahi āna i hele mai ai e hoʻowahāwahā i nā mea āpau e hoʻokuʻu iā ia mai kāna wahi hōʻoluʻolu."
+    },
+    {
+        "language": "Hungarian",
+        "symbol": "hu",
+        "text": "Volt idő, amikor elfogadta volna a közelgő változást. Fiatal korában kalandra és ismeretlenre vágyott, de ez már évekkel ezelőtt megtörtént. Azt kívánta, bárcsak visszamehetne és megtanulná megtalálni a változással járó izgalmat, de haszontalan. Ez a kíváncsiság sokáig hagyta ott, ahol jött, hogy utáljon mindent, ami kiszorította a kényelmi zónából."
+    },
+    {
+        "language": "Irish",
+        "symbol": "ga",
+        "text": "Bhí am ann nuair a ghlacfadh sé leis an athrú a bhí le teacht. Ina óige, lorg sé eachtraíocht agus anaithnid, ach bhí sin blianta ó shin. Ba mhian leis go bhféadfadh sé dul ar ais agus foghlaim an spleodar a tháinig leis an athrú a fháil ach bhí sé gan úsáid. D’fhág an fiosracht sin le fada go dtí an áit ar tháinig sé chun aon rud a chur as a chrios chompord."
+    },
+    {
+        "language": "Kannada",
+        "symbol": "kn",
+        "text": "ಅವರು ಬರುತ್ತಿದ್ದ ಬದಲಾವಣೆಯನ್ನು ಅವರು ಸ್ವೀಕರಿಸುವ ಸಮಯವಿತ್ತು. ತನ್ನ ಯೌವನದಲ್ಲಿ, ಅವನು ಸಾಹಸ ಮತ್ತು ಅಜ್ಞಾತವನ್ನು ಬಯಸಿದನು, ಆದರೆ ಅದು ವರ್ಷಗಳ ಹಿಂದೆ. ಬದಲಾವಣೆಯೊಂದಿಗೆ ಬಂದ ಉತ್ಸಾಹವನ್ನು ಕಂಡುಕೊಳ್ಳಲು ಅವನು ಹಿಂತಿರುಗಿ ಕಲಿಯಬಹುದೆಂದು ಅವನು ಬಯಸಿದನು ಆದರೆ ಅದು ನಿಷ್ಪ್ರಯೋಜಕವಾಗಿದೆ. ಆ ಕುತೂಹಲವು ಅವನನ್ನು ತನ್ನ ಆರಾಮ ವಲಯದಿಂದ ಹೊರಹಾಕುವ ಯಾವುದನ್ನಾದರೂ ಅಸಹ್ಯಪಡಿಸಲು ಬಂದ ಸ್ಥಳಕ್ಕೆ ಬಹಳ ಹಿಂದೆಯೇ ಬಿಟ್ಟಿತ್ತು."
+    },
+    {
+        "language": "Kurdish",
+        "symbol": "ku",
+        "text": "Demek hebû ku ew ê guherîna ku dihat qebûl bikira. Di xortaniya xwe de, wî li serpêhatî û nezaniyê geriya, lê ev bi salan berê bû. Wî dixwest ku ew vegere û fêr bibe ku heyecana ku bi guherînê re peyda bû bibîne lê ew bêkêr bû. Wê meraqê dirêjî wî kiribû ku li ku derê hati bû ku ji her tiştî nefret bike ku wî ji qada rehetiya xwe derxîne."
+    },
+    {
+        "language": "Macedonian",
+        "symbol": "mk",
+        "text": "Имаше време кога тој ќе ја прифатеше промената што доаѓаше. Во својата младост, тој барал авантура и непознато, но тоа се случувало со години. Тој посака да може да се врати и да научи да ја пронајде возбудата што се појави со промените, но беше бескорисна. Таа ityубопитност веќе долго време го оставаше таму каде што беше дошол да се мрази што било што го исфрла од неговата удобна зона."
+    },
+    {
+        "language": "Maori",
+        "symbol": "mi",
+        "text": "He wa ano kua awhi ia i te panoni e haere ake nei. I a ia e tamariki ana, i whai ia i nga mahi whakangahau me nga mea kaore e mohiotia, engari he maha nga tau i mua. I hiahia ia kia hoki ano ia ki te ako ki te kimi i te ihiihi i puta mai i te rereketanga engari he koretake Ko taua hiahia kua roa kua waiho ia ki te wahi i haere mai ai ia ki te whakarihariha i nga mea katoa i whakaweto i a ia i tana rohe whakamarie."
+    },
+    {
+        "language": "Nepali",
+        "symbol": "ne",
+        "text": "एक समय थियो जब उनले आउँदै गरेको परिवर्तनलाई अँगालेका थिए। युवावस्थामा, उसले साहस र अज्ञात खोज्यो, तर त्यो वर्षौं पहिले भएको थियो। उसले पछाडि फर्केर जान सक्छ र उत्साहित भयो कि उत्साहको साथ परिवर्तन भयो कि त्यो बेकार थियो। त्यो उत्सुकताले उनलाई लामो समयसम्म त्यहीं छोडेको थियो जहाँ उनी कुनै कुरालाई घृणा गर्न आएका थिए जसले उसलाई आफ्नो आराम क्षेत्रबाट बाहिर राख्यो।"
+    },
+    {
+        "language": "Mongolian",
+        "symbol": "mn",
+        "text": "Тэр ирж буй өөрчлөлтийг тэврэн авах байсан үе бий. Залуу насандаа тэрээр адал явдал, үл мэдэгдэх зүйлийг эрэлхийлж байсан боловч энэ нь олон жилийн өмнө байсан юм. Тэрээр буцаж очоод өөрчлөлттэй хамт ирсэн сэтгэлийн хөөрлийг олж сурч аваасай гэж хүсч байсан ч энэ нь ямар ч ашиггүй байв. Энэхүү сониуч зан нь түүнийг тохь тухтай байдлаас нь холдуулсан бүхнийг жигшин зэвүүцэхээр ирсэн газартаа удаан хугацаагаар үлдээжээ."
+    },
+    {
+        "language": "Malagasy",
+        "symbol": "mg",
+        "text": "Nisy fotoana izay nety ho noraisiny ilay fanovana ho avy. Tamin'ny fahatanorany dia nitady traikefa nahafinaritra sy ny tsy fantatra izy, saingy efa taona maro lasa izay. Maniry ny hiverina izy ary hianatra hahita ny fientanam-po miaraka amin'ny fanovana fa tsy misy ilana azy. Io fahalianana io dia efa namela azy tany amin'ny toerana halehany mba hankahala izay rehetra nanala azy tamin'ny faritra mampionona azy."
+    },
+    {
+        "language": "Latin",
+        "symbol": "la",
+        "text": "Erat quippe cum complexus esset mutationem. In adolescentia ejus, et quaesivit an valebat et incognita, sed quod fuissent annos. Poterat discere uellet redire ad conversionem veniens tumultu sed inutile. Hinc ubi iam eo quod esset de fastidire suggessit aliquid auferre."
+    },
+    {
+        "language": "Kazakh",
+        "symbol": "kk",
+        "text": "Ол келе жатқан өзгерісті құшақ жая қарсы алатын кез болды. Жас кезінде ол приключения мен белгісізді іздеді, бірақ бұл бірнеше жыл бұрын болған. Ол қайта оралып, өзгеріспен келген толқуды таба білуді армандады, бірақ бұл пайдасыз болды. Бұл қызығушылық оны ұзақ уақыт бойына жайлылық аймағынан шығарған кез-келген нәрсені жек көруге келген жерге қалдырды."
+    },
+    {
+        "language": "Kyrgyz",
+        "symbol": "ky",
+        "text": "Ал келе жаткан өзгөрүүнү кабыл алган учур болгон. Жаш кезинде ал укмуштуу окуяларга жана белгисиз нерселерге умтулган, бирок бул жыл мурун болгон. Кайра кайтып келип, өзгөрүүлөр менен келген толкунданууну табууну үйрөнсөм деп тилек кылды, бирок бул пайдасыз болду. Бул кызыгуу аны жайлуу аймактан чыгарып салган нерсенин бардыгын жек көрүү үчүн келген жерине эчак таштап кеткен."
+    },
+    {
+        "language": "Luxembourgish",
+        "symbol": "lb",
+        "text": "Et war eng Zäit wou hien d'Ännerung ugeholl hätt déi komm wier. A senger Jugend huet hien Abenteuer an dat Onbekannt gesicht, awer dat war scho viru Joeren. Hie wollt datt hie kéint zréck goen a léiere fir d'Opreegung ze fannen déi mat Ännerung koum awer et war nëtzlos. Dee Virwëtz hat hie laang hannerlooss do wou hie komm war fir eppes ze verfaasen wat hien aus senger Komfortzone erausbruecht huet."
+    },
+    {
+        "language": "Maltese",
+        "symbol": "mt",
+        "text": "Kien hemm żmien meta kien iħaddan il-bidla li kienet ġejja. F’żgħożitu, huwa fittex avventura u dak mhux magħruf, imma dak kien ilu snin ilu. Huwa xtaq li jkun jista 'jmur lura u jitgħallem isib l-eċitament li ġie mal-bidla iżda ma kien inutli. Dik il-kurżità kienet ilha tħallih sa fejn kien ġie biex jobgħod kull ħaġa li tpoġġih barra miż-żona ta 'kumdità tiegħu."
+    },
+    {
+        "language": "Myanmar",
+        "symbol": "my",
+        "text": "သူလာမယ့်အပြောင်းအလဲကိုသူလက်ခံလိမ့်မယ်တဲ့အချိန်ရှိခဲ့သည်။ ငယ်စဉ်ကစွန့်စားမှုများနှင့်မသိသောအရာကိုရှာဖွေခဲ့သည်၊ သို့သော်လွန်ခဲ့သောနှစ်ပေါင်းများစွာကပင်ဖြစ်သည်။ သူပြန်သွားပြီးပြောင်းလဲမှုနှင့်အတူပါ ၀ င်သည့်စိတ်လှုပ်ရှားမှုကိုရှာဖွေရန်သင်ယူနိုင်သော်လည်း၎င်းသည်အချည်းနှီးဖြစ်သည်။ ထိုသိလိုစိတ်ကသူ့ကိုနှစ်သိမ့်သောဇုန်မှထွက်ခွာသွားစေသည့်မည်သည့်အရာကိုမဆိုရွံရှာရန်သူရောက်ရှိခဲ့သည်အထိကြာခဲ့ပြီဖြစ်သည်။"
+    },
+    {
+        "language": "Pashto",
+        "symbol": "ps",
+        "text": "یو وخت و کله چې هغه به هغه بدلون وموند چې راتلونکی و. په ځوانۍ کې ، هغه د ناڅاپي او نامعلوم په لټه کې و ، مګر دا څو کاله دمخه و. هغه هیله درلوده چې هغه بیرته لاړ شي او د هغه उत्साह موندلو زده کړي چې د بدلون سره راغلی مګر دا بې ګټې و. دې تجسس هغه له ډیرې مودې راهیسې پریښوده چیرې چې هغه د کوم څه کرکه راغلې چې هغه د هغه د آرامۍ ساحې څخه لرې کړي."
+    },
+    {
+        "language": "Persian",
+        "symbol": "fa",
+        "text": "زمانی بود که او می توانست تحولی را که پیش می آمد پذیرفت. در جوانی او به دنبال ماجراجویی و چیزهای ناشناخته بود ، اما این سالها پیش بوده است. او آرزو می کرد کاش می توانست به عقب برگردد و بیاموزد که هیجانی را که با تغییر ایجاد شده بود بیابد اما بی فایده بود. مدتها بود که این کنجکاوی او را به جایی که به آنجا آمده بود برای نفرت از هر چیزی که او را از منطقه راحتی خارج می کند ، رها کرده بود."
+    },
+    {
+        "language": "Zulu",
+        "symbol": "zu",
+        "text": "Kwakunesikhathi lapho ayezolwamukela ushintsho oluzayo. Ebusheni bakhe, wayefuna ukuzijabulisa nokungaziwa, kepha lokho bekuyiminyaka eyedlule. Wayefisa ukuthi angabuyela emuva afunde ukuthola isasasa elize noshintsho kodwa kwaba yize. Lelo lukuluku kwakusuke kudala lamshiya lapho ayeseze khona ukuzokwenyanya noma yini eyayimkhipha endaweni yakhe yokuhlala kahle."
+    },
+    {
+        "language": "Xhosa",
+        "symbol": "xh",
+        "text": "Kwakukho ixesha apho wayeza kulwamkela utshintsho oluzayo. Ebutsheni bakhe, wayefuna i-adventure kunye nezinto ezingaziwayo, kodwa oko bekuyiminyaka edlulileyo. Wayenqwenela ukuba angabuyela umva ayokufunda ukufumana uvuyo oluza notshintsho kodwa alunamsebenzi. Ukufuna ukwazi kwakukudala kumshiye apho wayezokucekisa nantoni na embeka kwindawo yakhe yokunethezeka."
+    },
+    {
+        "language": "Swahili",
+        "symbol": "sw",
+        "text": "Kulikuwa na wakati ambapo angekubali mabadiliko ambayo yalikuwa yanakuja. Katika ujana wake, alitafuta adventure na haijulikani, lakini hiyo ilikuwa miaka iliyopita. Alitamani arudi nyuma na kujifunza kupata msisimko uliokuja na mabadiliko lakini haukuwa na faida. Udadisi huo ulikuwa umemwacha kwa muda mrefu mahali alipokuja kuchukia chochote kilichomtoa nje ya eneo lake la raha."
+    },
+    {
+        "language": "Sinhala",
+        "symbol": "si",
+        "text": "ඔහු පැමිණෙමින් තිබූ වෙනස වැලඳ ගන්නා කාලයක් තිබුණි. ඔහුගේ යෞවන කාලයේදී ඔහු ත්‍රාසජනක හා නොදන්නා දේ සෙවූ නමුත් එය මීට වසර ගණනාවකට පෙරය. ඔහු ආපසු ගොස් වෙනසක් සමඟ ඇති වූ උද්වේගය සොයා ගැනීමට ඉගෙන ගත හැකි නමුත් එය නිෂ් .ල විය. එම කුතුහලය නිසා ඔහුගේ සුවපහසුව කලාපයෙන් පිටතට ගෙන යන ඕනෑම දෙයක් පිළිකුල් කිරීමට ඔහු පැමිණ ඇති ස්ථානයට බොහෝ කලක් ගතවී තිබුණි."
+    },
+    {
+        "language": "Sesotho",
+        "symbol": "st",
+        "text": "Ho na le nako eo a ka beng a ile a amohela phetoho e neng e tla. Bocheng ba hae, o ile a batla boithabiso le tse sa tsejoeng, empa e ne e le lilemong tse fetileng. O ne a lakatsa eka a ka kgutlela morao mme a ithute ho fumana thabo e tlisoang ke phetoho empa e se na thuso. Takatso eo e ne e se e mo tlohetse moo a neng a tlo nyonya eng kapa eng e neng e mo tlosa boiketlong."
+    },
+    {
+        "language": "Yoruba",
+        "symbol": "yo",
+        "text": "Akoko kan wa nigbati oun yoo ti faramọ iyipada ti n bọ. Ni ọdọ rẹ, o wa igbadun ati aimọ, ṣugbọn iyẹn ti jẹ awọn ọdun sẹhin. O fẹ pe o le pada ki o kọ ẹkọ lati wa idunnu ti o wa pẹlu iyipada ṣugbọn ko wulo. Iwariiri yẹn ti fi silẹ fun igba pipẹ si ibiti o ti wa lati korira ohunkohun ti o le mu u kuro ni agbegbe itunu rẹ."
+    },
+    {
+        "language": "Welsh",
+        "symbol": "cy",
+        "text": "Roedd yna amser pan fyddai wedi cofleidio'r newid oedd ar ddod. Yn ei ieuenctid, ceisiodd antur a'r anhysbys, ond roedd hynny flynyddoedd yn ôl. Roedd yn dymuno y gallai fynd yn ôl a dysgu dod o hyd i'r cyffro a ddaeth gyda newid ond roedd yn ddiwerth. Roedd y chwilfrydedd hwnnw wedi ei adael ers amser maith i ble roedd wedi dod i gasáu unrhyw beth a'i rhoddodd allan o'i ardal gysur."
+    },
+    {
+        "language": "Sundanese",
+        "symbol": "su",
+        "text": "Aya waktos nalika anjeunna bakal nampi parobihan anu bakal datang. Nalika nonoman, anjeunna milarian petualangan sareng kanyahoan, tapi éta parantos sababaraha taun ka pengker. Anjeunna miharep anjeunna tiasa uih deui sareng diajar mendakan pikagumbiraeun anu sumping kalayan robih tapi éta henteu aya gunana. Panasaran éta parantos lami ngantepkeun anjeunna ka tempat anjeunna sumping pikeun nganyahokeun naon waé anu nempatkeun anjeunna kaluar tina zona kanyamanan na."
+    },
+    {
+        "language": "Sindhi",
+        "symbol": "sd",
+        "text": "ڪو وقت هو جڏهن هو انهي تبديل کي قبول ڪري ها ، جيڪا اچڻ واري هئي. جوانيءَ ۾ ، هن ايڊونچر ۽ نامعلوم کي ڳولهيو ، پر اهو سال اڳ هو. هن خواهش ڪئي ته هو واپس وڃي سگهي ۽ ڏسڻ واري سگهه کي ڏسڻ سان گڏ تبديل ٿي وڃي پر اهو بي سود هو. اهو تجسس هن کي گهڻو وقت ڇڏي چڪو هو جتي هو ڪنهن به شيءِ کي ناپسند ڪرڻ آيو هو جيڪو هن کي پنهنجو آرامده علائقو ڪ putي ڇڏيو هو."
+    },
+    {
+        "language": "Scots Gaelic",
+        "symbol": "gd",
+        "text": "Bha àm ann nuair a bhiodh e air gabhail ris an atharrachadh a bha ri thighinn. Na òige, bha e a ’sireadh dànachd agus neo-aithnichte, ach bha sin o chionn bhliadhnaichean. Bha e a ’miannachadh gum b’ urrainn dha a dhol air ais agus ionnsachadh a bhith a ’lorg an othail a thàinig an cois atharrachadh ach bha e gun fheum. Dh ’fhàg an fheòrachas sin o chionn fhada e gu far an tàinig e gu bhith a’ gabhail gràin de rud sam bith a chuir e a-mach às an raon comhfhurtachd aige."
+    },
+    {
+        "language": "Yiddish",
+        "symbol": "yi",
+        "text": "עס איז געווען אַ צייט ווען ער וואָלט האָבן עמברייסט די ענדערונג וואָס איז געווען קומענדיק. אין זיין יוגנט, ער געזוכט פּאַסירונג און די אומבאַקאַנט, אָבער דאָס איז געווען מיט יאָרן צוריק. ער האט געוואלט ער קען גיין צוריק און לערנען צו געפֿינען די יקסייטמאַנט אַז געקומען מיט טוישן, אָבער עס איז אַרויסגעוואָרפן. די נייַגעריקייַט האט לאַנג פאַרלאָזן אים צו ווו ער איז געווען צו פּאַסקודנע עפּעס וואָס שטעלן אים אויס פון זיין טרייסט זאָנע."
+    },
+    {
+        "language": "Uzbek",
+        "symbol": "uz",
+        "text": "Bir paytlar u kelayotgan o'zgarishni qabul qilgan bo'lar edi. Yoshligida u sarguzasht va noma'lum narsalarni qidirdi, ammo bu yillar oldin edi. U qaytib borishini va o'zgarish bilan birga kelgan hayajonni topishni o'rganishini xohlar edi, ammo bu befoyda edi. Bu qiziqish uni uzoq vaqtdan beri qulay joyidan chiqarib yuborgan har qanday narsadan nafratlanish uchun kelgan joyiga qoldirgan edi."
+    },
+    {
+        "language": "Somali",
+        "symbol": "so",
+        "text": "Waxaa jirtay waqti uu qaadan lahaa isbedelka imanaya. Yaraantiisii, wuxuu raadsaday tacabur iyo wax aan la aqoon, laakiin taasi waxay ahayd sannado ka hor. Wuxuu rajeeyay inuu dib ugu laaban karo oo uu barto raadinta xiisaha isbedelka la yimid laakiin ma aysan faa'iido lahayn. Xiisahaas xiisaha leh ayaa muddo dheer uga tagay isaga meeshii uu u yimid si uu u necbaa wax kasta oo isaga ka saaray aaggiisa raaxada."
+    },
+    {
+        "language": "Shona",
+        "symbol": "sn",
+        "text": "Paive nenguva apo iye angave akagamuchira shanduko yaive ichiuya. Muhudiki hwake, akatsvaga kunakidzwa uye zvisingazivikanwe, asi izvo zvaive makore apfuura. Akashuva kuti dai aigona kudzokera adzidze kuwana kunakidzwa kwakauya neshanduko asi zvakashaya basa. Kuda kuziva kuya kwakange kwamusiya kubva kwaakange auya kuzosemesa chero chinhu chaimuisa kunze kwekunakirwa kwake."
+    },
+    {
+        "language": "Samoan",
+        "symbol": "sm",
+        "text": "Sa i ai le taimi na ia taliaina le suiga o le a sau. I lona talavou, na ia sailia le malaga ma le le mailoa, ae o tausaga na ua tuanaʻi. Na ia moomoo maimau pe ana mafai ona toe foi i tua ma aʻoaʻo ia maua le fiafia na o mai ma suiga ae na leai se aoga. O lena fiailoa na leva ona tuua ai o ia i le mea na sau ai e inoino i soo se mea na teenaina o ia mai lona mafanafana sone."
+    }
+]
