@@ -2,6 +2,7 @@ const fs = require('fs');
 let instance = {
   load,
   run,
+  arr_init,
   detect,
   detectTest,
   indexOfMax,
@@ -64,6 +65,15 @@ function factory(tf_implementation)
   tf = tf_implementation;
   return instance;
 }
+
+function arr_init(size,value){
+  let a= new Array(size);
+  for (let i=0;i<size;i++){
+    a[i]=value;
+  }
+  return a;
+}
+
 
 function arr(size,index){
   let a= new Array(size);
