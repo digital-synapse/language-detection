@@ -123,6 +123,9 @@ function detect(inputString){
   const results = training_data.map(data => {
     const result = data.model.predict(tf.tensor(vectorize(inputString)).reshape([1,30]));
     const result_prediction = result.arraySync()[0][0];
+    if (isNaN(result_prediction)){
+      result_prediction= 0.0;
+    }
     return { predicted: data.language, confidence: result_prediction };
   });
 
