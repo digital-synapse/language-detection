@@ -21,6 +21,8 @@ async function load(tryLoadSavedModels = true){
   training_data = loadJSON('./languagedetect/data/training-data-1.json');
   const td2 = loadJSON('./languagedetect/data/training-data-2.json');
   const td3 = loadJSON('./languagedetect/data/training-data-3.json');
+  const td4 = loadJSON('./languagedetect/data/training-data-4.json');
+  const td5 = loadJSON('./languagedetect/data/training-data-5.json');
   training_data.forEach(d=> {
     const a= td2.find(x=>x.language == d.language);
     if (a && a.text){
@@ -30,13 +32,26 @@ async function load(tryLoadSavedModels = true){
     if (b && b.text){
       d.text = d.text + ' ' + b.text;
     }
+    const c= td4.find(x=>x.language == d.language);
+    if (c && c.text){
+      d.text = d.text + ' ' + c.text;
+    }
+    const aa= td5.find(x=>x.language == d.language);
+    if (aa && aa.text){
+      d.text = d.text + ' ' + aa.text;
+    }
   });
   instance.training_data = training_data;
   instance.validation_data = loadJSON('./languagedetect/data/validation-data.json');
 
   if (tryLoadSavedModels){
     for (let i=0; i<training_data.length; i++){    
-      training_data[i].model = await tf.loadLayersModel(`file://./languagedetect/data/model/${training_data[i].language}/model.json`);
+      try{
+        training_data[i].model = await tf.loadLayersModel(`file://./languagedetect/data/model/${training_data[i].language}/model.json`);
+      }
+      catch {
+        console.log(`warning: model data not found for ${training_data[i].language}`);        
+      }
     };
   }
   return instance;
@@ -118,16 +133,24 @@ function indexOfMax(arr) {
   return maxIndex;
 }
 
-function detect(inputString){
-
-  const results = training_data.map(data => {
+function predict(data, inputString){
+  if (data.model){
     const result = data.model.predict(tf.tensor(vectorize(inputString)).reshape([1,30]));
-    const result_prediction = result.arraySync()[0][0];
+    let result_prediction = result.arraySync()[0][0];
     if (isNaN(result_prediction)){
       result_prediction= 0.0;
+      return { predicted: data.language, confidence: result_prediction, error: 'NaN' };
     }
     return { predicted: data.language, confidence: result_prediction };
-  });
+  }
+  else {
+    return  { predicted: data.language, confidence: 0, error: 'model was missing' };
+  }
+}
+
+function detect(inputString){
+
+  const results = training_data.map(data => predict(data,inputString));
 
   results.sort((a,b) => b.confidence - a.confidence);
   let max = results[0];
@@ -139,8 +162,10 @@ function detect(inputString){
 function detectTest(inputString, expectedLanguage)
 {
   const result = detect(inputString);
+  const detail = predict(training_data.find(x=>x.language == expectedLanguage), inputString);
   result.expected = expectedLanguage;
-  if (result.predicted == expectedLanguage){
+  result.detail = detail;
+  if (result.predicted == expectedLanguage && result.confidence >= 0.5){
     result.pass =true;
   }
   else {

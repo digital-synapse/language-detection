@@ -85,21 +85,23 @@ async function train(loop=1){
   let training_data = language.training_data;
   const languages = training_data.length;    
   
+  const newModel = (t) =>{
+    const model = tf.sequential({ layers: [
+      tf.layers.dense({ inputShape: [30], units: languages, activation: 'sigmoid' }),
+      tf.layers.dense({ inputShape: [languages], units: languages, activation: 'sigmoid' }),
+      tf.layers.dense({ inputShape: [languages], units: languages, activation: 'sigmoid' }),                             
+      tf.layers.dense({ inputShape: [languages], units: 1, activation: 'sigmoid' })    
+    ]});      
+    t.model = model;
+    t.needsTraining=true;
+  };
+
   const init_model = t => {
     t.needsTraining=true;
     
-    const newModel = () =>{
-      const model = tf.sequential({ layers: [
-        tf.layers.dense({ inputShape: [30], units: languages, activation: 'sigmoid' }),
-        tf.layers.dense({ inputShape: [languages], units: languages, activation: 'sigmoid' }),
-        tf.layers.dense({ inputShape: [languages], units: languages, activation: 'sigmoid' }),                             
-        tf.layers.dense({ inputShape: [languages], units: 1, activation: 'sigmoid' })    
-      ]});      
-      t.model = model;
-    };
     // no model (language.load() did not find a saved model to load, so create a new one)
-    if (!t.model || t.forget){
-      newModel();
+    if (!t.model){
+      newModel(t);      
     } 
     // model was loaded, test to see if more training is needed
     else{
@@ -109,32 +111,40 @@ async function train(loop=1){
       
         // model is predicting correctly
         if (result.pass){
-          if (t.forceAdditionalTraining){
-            t.needsTraining = false;
-            console.log(color.green(`${vd.language} : ${(result.confidence * 100).toFixed(1)}%`));
-          }
+          t.needsTraining = false;
         }
         else {
-          if (RESTART_TRAINING_ON_VALIDATION_FAILURE && loop==1){
-            console.log(color.yellow(`${vd.language} : Forgot training because forget option was specified and model failed validation test.`))
-            newModel();
-          }
           // if the prediction was wrong and highly confident,
-          // save the negative result for training
-          if (result.confidence > 0.9){
-            t.falsePositive = result.predicted;
+          // forget the training of the predicted language        
+          if (result.confidence > 0.85){
+            const td = training_data.find(x=> x.language == result.predicted);
+            newModel(td);
+            td.forgotTraining=true;
+            td.error = result.error;
+            //newModel(t);
+            //t.forgotTraining=true;
+            //t.error = result.error;
+          }
+
+          // if the language model produced a NaN prediction
+          // forget the training
+          if (result.detail.error == 'NaN'){
+            newModel(t);
+            t.forgotTraining=true;
+            t.error = result.detail.error;
           }
         }
       }
     }
-
-    t.model.compile({ optimizer: 'adam', loss: 'binaryCrossentropy', lr: LEARNING_RATE, metrics: ['acc']});
-    t.compiled = true;
   };
 
   training_data.forEach(init_model);
+  training_data.forEach(t => {
+    t.model.compile({ optimizer: 'adam', loss: 'binaryCrossentropy', lr: LEARNING_RATE, metrics: ['acc']});       
+  });
 
   // only train the models that need it
+  const training_finished = training_data.filter(x=>!x.needsTraining);
   training_data = training_data.filter(x=>x.needsTraining);
   if (training_data.length == 0) return false;
 
@@ -165,7 +175,7 @@ async function train(loop=1){
     }
 
     // is this a language that uses spaces as sentence delimiters?
-    if (seq.length < 50){
+    if (seq.length < 200){
       seq=[];
       for (let j = 0; j < shortest - 30; j++){
         let charCodes=[];
@@ -192,14 +202,16 @@ async function train(loop=1){
   // build training data
   training_data.forEach((td,i) => {
     
+    /*
     if (td.falsePositive){
       td.xx = td.seq.concat(training_data.filter(v=> v.language == td.falsePositive).seq);
     }
     
-    if (td.xx && td.xx.length > shortest*2)
-      td.xx = td.xx.slice(0,shortest*2);
+    if (td.xx && td.xx.length > shortest*3)
+      td.xx = td.xx.slice(0,shortest*3);
+    */
 
-    if ((td.xx && td.xx.length < shortest *2) || !td.xx){
+    //if ((td.xx && td.xx.length < shortest *3) || !td.xx){
       // training inputs
       td.xx = td.seq.concat(
         // for each sequence of positive test cases        
@@ -210,12 +222,17 @@ async function train(loop=1){
             .map(x=>x.seq)))            // select all their sequences
             //.concatAll()              // into a single array
             //.shuffle()                // shuffle the results to get a good random distribution
-            .slice(0, (shortest *2)-td.seq.length));  // take the same number of negative cases as positive cases
-    }
+            .slice(0, (shortest*2)));   // take the same number of negative cases as positive cases
+    //}
 
     // training outputs
-    td.xy = array.create(td.seq.length, 1)
-      .concat(array.create(td.seq.length,0));
+    td.xy = array.create(shortest, 1)
+      .concat(array.create(shortest*2,0));
+
+    if (td.xx.length != td.xy.length){
+      throw new Error('unexpected training set length!');
+    }
+    td.trainingSetLength = td.xx.length;
   });
 
   const training_tasks=[];
@@ -242,31 +259,52 @@ async function train(loop=1){
     const table = [];
     let i=0;
     let tmp=[];
+
+    training_finished.forEach(t=>{
+      if (i < 2){
+        tmp.push(color.bold.green(t.language));
+        tmp.push(color.green('-'));
+        tmp.push(color.green('-'));
+        i++;
+      }
+      if (i==2) {
+        i=0;
+        table.push(tmp);
+        tmp= [];
+      }
+    });
+
     training_data.forEach(t=> {
       if (i < 2){
-      tmp.push(t.language)
+        if (t.error)
+          tmp.push(color.red(t.language));
+        else if (t.forgotTraining)
+          tmp.push(color.yellow(t.language));
+        else
+          tmp.push(t.language);
+      
+        let loss = t.logs.loss;
+        if (loss <= 0.01)
+          loss = color.green(loss.toFixed(4));
+        else if (loss < 0.2)
+          loss = color.yellow(loss.toFixed(4));
+        else
+          loss = color.red(loss.toFixed(4));
+        tmp.push(loss);
 
-      let loss = t.logs.loss;
-      if (loss <= 0.01)
-        loss = color.green(loss.toFixed(4));
-      else if (loss < 0.2)
-        loss = color.yellow(loss.toFixed(4));
-      else
-        loss = color.red(loss.toFixed(4));
-      tmp.push(loss);
+        loss = t.logs.val_loss;
+        if (loss <= 0.01)
+          loss = color.green(loss.toFixed(4));
+        else if (loss < 0.2)
+          loss = color.yellow(loss.toFixed(4));
+        else
+          loss = color.red(loss.toFixed(4));
+        tmp.push(loss);
 
-      loss = t.logs.val_loss;
-      if (loss <= 0.01)
-        loss = color.green(loss.toFixed(4));
-      else if (loss < 0.2)
-        loss = color.yellow(loss.toFixed(4));
-      else
-        loss = color.red(loss.toFixed(4));
-      tmp.push(loss);
-
-      i++;
+        i++;
       }
-      else {
+
+      if (i==2) {
         i=0;
         table.push(tmp);
         tmp= [];
@@ -274,7 +312,8 @@ async function train(loop=1){
     });
     if (tmp.length > 0) table.push(tmp);
     console.clear();
-    console.log(`Epoch ${training_data[0].epoch} of ${TRAINING_EPOCHS} x ${loop}  LR: ${LEARNING_RATE}  VAL_SPLIT: ${VALIDATION_SPLIT}`);
+    console.log(`EPOCH: ${training_data[0].epoch}/${TRAINING_EPOCHS}  PASS: ${loop}  LR: ${LEARNING_RATE}  VAL_SPLIT: ${VALIDATION_SPLIT}  TR_SET_LEN: ${training_data[0].trainingSetLength}`);
+    console.log(`LEGEND:  ${color.bold.green('[Training Complete]')}  ${color.yellow('[False Positive]')}  ${color.red('[Faulted NaN]')}`);
     console.log();
     console.log(columnify(table,{
       showHeaders: false,
